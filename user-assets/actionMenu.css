@@ -1,0 +1,57 @@
+ct-action-menu {
+  font-size: 1em;
+}
+ct-action-menu .ct-action-menu-host {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+ct-action-menu .ct-action-menu-host p {
+  margin: 0;
+}
+ct-action-menu .ct-action-menu-host button {
+  background: none;
+  border: none;
+}
+ct-action-menu ul {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0 30px;
+  padding: 10px 0;
+}
+ct-action-menu ul li {
+  align-items: center;
+  display: flex;
+  padding: 0 15px;
+  cursor: pointer;
+}
+ct-action-menu ul li:disabled,
+ct-action-menu ul li.disabled {
+  color: #c3b4b4;
+  cursor: not-allowed;
+}
+ct-action-menu ul li.no-action {
+  cursor: default;
+}
+ct-action-menu ul li.has-action:hover {
+  background-color: #ccc;
+}
+ct-action-menu ul li hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+}
+ct-action-menu ul li i {
+  margin-right: 5px;
+  min-width: 20px;
+}
+ct-action-menu ul li p {
+  margin: 0;
+  padding: 7px 0;
+}
